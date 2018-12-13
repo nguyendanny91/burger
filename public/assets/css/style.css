@@ -1,0 +1,13 @@
+.col-centered {
+  float: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.burgerimg {
+  height: 10em;
+}
+
+.form-control {
+  width: 20em;
+}
