@@ -9,5 +9,7 @@ USE burgers_db;
 CREATE TABLE burgers (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   burger_name VARCHAR(255),
-  devoured BOOLEAN
+  devoured BOOLEAN,
+  createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL 
 );
+
